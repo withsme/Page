@@ -20,9 +20,10 @@ import Publications from './Page/PublicationsPage/Publications';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header /> 
-      <Routes>
+    <>
+    {/* <BrowserRouter>
+      <Header />  */}
+      {/* <Routes>
         <Route exact path='/' element={<Home />} />
         <Route path='/news' element={<News />} />
         <Route path='/seminar' element={<Seminar />} />
@@ -35,8 +36,10 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/system' element={<System />} />
         <Route path='/publications' element={<Publications />} />
-      </Routes>
-    </BrowserRouter>
+      </Routes> */}
+    {/* </BrowserRouter> */}
+      <h1>hello</h1>
+    </>
   );
 }
 
