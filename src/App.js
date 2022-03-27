@@ -21,8 +21,8 @@ import Publications from './Page/PublicationsPage/Publications';
 function App() {
   return (
     <>
-    {/* <BrowserRouter>
-      <Header />  */}
+    <BrowserRouter>
+      <Header /> 
       {/* <Routes>
         <Route exact path='/' element={<Home />} />
         <Route path='/news' element={<News />} />
@@ -37,7 +37,7 @@ function App() {
         <Route path='/system' element={<System />} />
         <Route path='/publications' element={<Publications />} />
       </Routes> */}
-    {/* </BrowserRouter> */}
+    </BrowserRouter>
       <h1>hello</h1>
     </>
   );
